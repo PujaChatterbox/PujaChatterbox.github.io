@@ -55,7 +55,11 @@
 
 .navbar li ul {
   margin: 15px 10px;
+}
 
+.navbarItems li ul a{
+  text-decoration: none;
+  color: #ecf0f1;
 }
 
 .flex-container {
