@@ -71,6 +71,18 @@
     align-items: center;
     margin: 20px 5% 20px 5%;
   }
+
+.poemContainer{
+      display: flex;
+    flex-direction: row;
+  margin:5%;
+    }
+
+.poem-item{
+margin:20px;
+}
+
+
   
   .flex-item-left {
     padding: 30px;
@@ -133,12 +145,11 @@
     letter-spacing: 1px;
     font-size: 21px;
     font-family: 'Lobster', cursive;
-  padding: 40px 0px 40px 30px;
+  padding: 30px 12px 30px 312px;
   color: #100c08;
   margin: 3vh 5% 2vh 5%;
-  /* background-color: #ecf0f1; */
-  background: #a8c0ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: #a8c0ff;
+  background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);
   background: linear-gradient(to right, #767aff, #b2c7ff);
   border-radius: 12px;
 }
@@ -252,6 +263,10 @@ border-radius: 12px;
 
 
     .flex-container {
+      flex-direction: column;
+    }
+
+    .poemContainer{
       flex-direction: column;
     }
 
