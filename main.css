@@ -142,10 +142,7 @@
 margin:20px;
    display: flex;
   align-items: center;
-}
-
-.poem-item img {
-width:400px;
+  width: 400px;
 }
 
 .filmContainer {
@@ -289,6 +286,7 @@ flex-direction: column;
 
 .poem-item{
 flex-direction: column;
+  width: 350px;
 }
 
     .cardContainer{
