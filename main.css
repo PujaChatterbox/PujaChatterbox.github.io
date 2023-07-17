@@ -144,8 +144,9 @@ margin:20px;
   align-items: center;
 }
 
-
-
+.poem-item img {
+width:400px
+}
 
 .filmContainer {
   text-align: center;
