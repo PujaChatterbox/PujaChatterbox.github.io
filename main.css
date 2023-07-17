@@ -71,18 +71,6 @@
     align-items: center;
     margin: 20px 5% 20px 5%;
   }
-
-.poemContainer{
-      display: flex;
-    flex-direction: row;
-  margin:5%;
-    }
-
-.poem-item{
-margin:20px;
-}
-
-
   
   .flex-item-left {
     padding: 30px;
@@ -140,9 +128,24 @@ margin:20px;
   border-radius: 12px;
 }
 
-.poem-item{
 
+.poemContainer{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin: 20px 4% 20px 5%;  
+    }
+
+.poem-item{
+margin:20px;
+   display: flex;
+  align-items: center;
 }
+
+
+
 
 .filmContainer {
   text-align: center;
@@ -276,8 +279,12 @@ border-radius: 12px;
     }
 
     .poemContainer{
-      flex-direction: column;
+flex-direction: column;
     }
+
+.poem-item{
+flex-direction: column;
+}
 
     .cardContainer{
       flex-direction: column;
